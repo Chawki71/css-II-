@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant XYZ</title>
+    <!-- Inclure Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="text-center text-white py-4">Bienvenue chez Restaurant XYZ</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-us bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path-to-your-image.jpg" class="img-fluid rounded" alt="Image du restaurant">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4">À propos de nous</h2>
+                        <p class="lead">
+                            Bienvenue dans notre restaurant ! Situé au cœur de la ville, nous offrons une expérience culinaire unique avec des plats préparés à partir des ingrédients les plus frais. Notre chef talentueux crée des menus qui allient tradition et innovation, vous promettant une aventure gastronomique inoubliable. Venez savourer nos spécialités dans une ambiance chaleureuse et conviviale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Notre Menu</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="dish1.jpg" class="card-img-top" alt="Plat 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom du Plat 1</h5>
+                                <p class="card-text">Description du plat 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#" class="btn btn-primary">Détails</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="dish2.jpg" class="card-img-top" alt="Plat 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom du Plat 2</h5>
+                                <p class="card-text">Description du plat 2. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                <a href="#" class="btn btn-primary">Détails</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="dish3.jpg" class="card-img-top" alt="Plat 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Nom du Plat 3</h5>
+                                <p class="card-text">Description du plat 3. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <a href="#" class="btn btn-primary">Détails</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contactez-nous</h2>
+                <form action="submit_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Restaurant XYZ. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#"><img src="icon-facebook.png" alt="Facebook"></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="icon-twitter.png" alt="Twitter"></a></li>
+                        <li class="list-inline-item"><a href="#"><img src="icon-instagram.png" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inclure Bootstrap JS (optionnel, dépend des fonctionnalités utilisées) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
